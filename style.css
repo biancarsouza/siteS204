@@ -1,0 +1,77 @@
+.title {
+    color: #FDF500;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Sixtyfour", Arial, sans-serif;
+    background-color: #252525;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container button {
+    margin-top: 30px;
+}
+
+.lore {
+    margin-top: 30px;
+}
+
+.download {
+    background-color: #CB1DCD;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 332px;
+    height: 70px;
+    font-family: "Sixtyfour", Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.download:hover {
+    background-color: #A000A0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.footer {
+    color: #FDF500;
+    font-size: 18px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
