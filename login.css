@@ -51,6 +51,35 @@ body {
     text-align: center;
 }
 
+.login {
+    background-color: #CB1DCD;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 285px;
+    height: 70px;
+    font-family: "Sixtyfour", Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+
+    margin-bottom: 30px;
+}
+
+.login:hover {
+    background-color: #A000A0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
 .link {
     color: #FFFFFF;
 }
